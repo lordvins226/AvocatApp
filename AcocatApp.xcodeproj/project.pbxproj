@@ -13,6 +13,10 @@
 		0AD10AEC25BB524600D33384 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD10AEB25BB524600D33384 /* Preview Assets.xcassets */; };
 		0AD10AF725BB524700D33384 /* AcocatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD10AF625BB524700D33384 /* AcocatAppTests.swift */; };
 		0AD10B0225BB524700D33384 /* AcocatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD10B0125BB524700D33384 /* AcocatAppUITests.swift */; };
+		0AFB0ED325BDAF85004F918C /* AvocadosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB0ED225BDAF85004F918C /* AvocadosView.swift */; };
+		0AFB0ED825BDB046004F918C /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB0ED725BDB046004F918C /* RipeningStagesView.swift */; };
+		0AFB0EDD25BDB0AA004F918C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB0EDC25BDB0AA004F918C /* SettingsView.swift */; };
+		0AFB0EE225BDB0E1004F918C /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB0EE125BDB0E1004F918C /* AppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		0AD10AFD25BB524700D33384 /* AcocatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcocatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AD10B0125BB524700D33384 /* AcocatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcocatAppUITests.swift; sourceTree = "<group>"; };
 		0AD10B0325BB524700D33384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AFB0ED225BDAF85004F918C /* AvocadosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadosView.swift; sourceTree = "<group>"; };
+		0AFB0ED725BDB046004F918C /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
+		0AFB0EDC25BDB0AA004F918C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		0AFB0EE125BDB0E1004F918C /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +103,10 @@
 		0AD10AE325BB524300D33384 /* AcocatApp */ = {
 			isa = PBXGroup;
 			children = (
+				0AFB0ED125BDAF2E004F918C /* Model */,
+				0AFB0ED025BDAF27004F918C /* Data */,
+				0AFB0ECF25BDAF18004F918C /* View */,
 				0AD10AE425BB524300D33384 /* AcocatAppApp.swift */,
-				0AD10AE625BB524300D33384 /* ContentView.swift */,
 				0AD10AE825BB524600D33384 /* Assets.xcassets */,
 				0AD10AED25BB524600D33384 /* Info.plist */,
 				0AD10AEA25BB524600D33384 /* Preview Content */,
@@ -128,6 +138,32 @@
 				0AD10B0325BB524700D33384 /* Info.plist */,
 			);
 			path = AcocatAppUITests;
+			sourceTree = "<group>";
+		};
+		0AFB0ECF25BDAF18004F918C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0AD10AE625BB524300D33384 /* ContentView.swift */,
+				0AFB0ED225BDAF85004F918C /* AvocadosView.swift */,
+				0AFB0ED725BDB046004F918C /* RipeningStagesView.swift */,
+				0AFB0EDC25BDB0AA004F918C /* SettingsView.swift */,
+				0AFB0EE125BDB0E1004F918C /* AppView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0AFB0ED025BDAF27004F918C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0AFB0ED125BDAF2E004F918C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +295,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AFB0EDD25BDB0AA004F918C /* SettingsView.swift in Sources */,
 				0AD10AE725BB524300D33384 /* ContentView.swift in Sources */,
+				0AFB0EE225BDB0E1004F918C /* AppView.swift in Sources */,
+				0AFB0ED825BDB046004F918C /* RipeningStagesView.swift in Sources */,
 				0AD10AE525BB524300D33384 /* AcocatAppApp.swift in Sources */,
+				0AFB0ED325BDAF85004F918C /* AvocadosView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
